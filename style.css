@@ -1,0 +1,33 @@
+header{
+    background-color: #a1e9ff;
+    height: 285px;
+    width: 100%;
+    min-width: 1115px;
+}
+.center{    
+    margin: 0 auto;
+    width: 1115px;
+    grid-template-columns: auto 60px 60px 60px;
+    height: 100%;
+        display: grid;
+}
+.zarovnani{
+    display: flex;
+    align-items: center;
+}
+.stranky{
+    background-color:  #dcf7ff;
+    max-width: 150px;
+    height: 120px;
+    grid-template-rows: auto auto;
+    display: grid;
+    margin-left: auto;  
+    margin-top: -70px;  
+}
+nav > .zarovnani{
+    margin-left: 30px;
+}
+.velikost{
+    width: 1115px;
+    margin: 0 auto;
+}
