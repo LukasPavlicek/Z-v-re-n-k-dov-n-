@@ -1,5 +1,6 @@
 .header1,
-.footer1 {
+.footer1,
+.footer2 {
     background-color: #a1e9ff;
     height: 285px;
     width: 100%;
@@ -42,7 +43,8 @@ body {
     margin: 0 auto;
 }
 
-.centerFooter1 {
+.centerFooter1,
+.centerFooter2 {
     margin: 0 auto;
     width: 1115px;
     grid-template-columns: 500px auto;
@@ -50,7 +52,8 @@ body {
     display: grid;
 }
 
-.textFooter1 {
+.textFooter1,
+.textFooter2 {
     display: flex;
     align-items: center;
     margin-left: 100px;
@@ -58,7 +61,8 @@ body {
     line-height: 1.5em;
 }
 
-.mobilEmail1 {
+.mobilEmail1,
+.mobilEmail2 {
     margin-top: 120px;
     margin-left: auto;
     margin-right: 100px;
@@ -133,7 +137,6 @@ body {
     .textFooter1 {
         margin-left: 0px;
     }
-
 }
 
 @media screen and (max-width: 360px) {
@@ -223,6 +226,111 @@ body {
     }
 
     .mobilEmail1 {
+        margin: 0px;
+        margin: 20px auto;
+    }
+}
+
+.page2-header{
+    background-color: #a1e9ff;
+    overflow: auto;
+    
+}
+
+.page2-logo{
+    padding: 50px;
+    float: left;
+    border: black;
+}
+
+.page2-nav{
+    padding: 60px 60px 0 0;
+    float: right;
+    text-align: right;
+}
+
+.page2-nav-item{
+    padding: 0 20px 0 0;
+    align-items: center;
+    display: inline-block;
+}
+
+.page2-main{
+    padding: 50px 100px 50px 100px;
+}
+
+.page2-img{
+    width:400px;
+    height: 266px;
+    border: 50px solid #a1e9ff;
+    margin: 0 auto;
+}
+
+.page2-section{
+    padding: 50px 0 50px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.page2-text{
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5em;
+    align-items: center;
+    margin: auto auto;
+}
+
+.page2-midbox{
+    background-color: #a1e9ff;
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.page2-midbox-text{
+    
+    align-items: center;
+    display: inline-block;
+    padding: 0 50px 0 20px;
+}
+
+body{
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px){
+    .page2-section{
+        padding: 50px 0 50px 0;
+        display:block;
+    }
+
+    .page2-img{
+        width:85%;
+        border: 50px solid #a1e9ff;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    .footer2{
+        min-width: auto;
+        height: unset;
+    }
+
+    .centerFooter2 {
+        width: unset;
+        grid-template-columns: unset;
+    }
+
+    .textFooter2{
+        line-height: 1em;
+        margin: 0px;
+        width: 66%;
+        margin: 20px auto;
+    }
+    
+    .mobilEmail2{
         margin: 0px;
         margin: 20px auto;
     }
